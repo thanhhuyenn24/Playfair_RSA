@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.RSABtn = new System.Windows.Forms.Button();
+            this.PlayfairBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -42,8 +42,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.RSABtn);
+            this.panel1.Controls.Add(this.PlayfairBtn);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -52,27 +52,28 @@
             this.panel1.Size = new System.Drawing.Size(508, 563);
             this.panel1.TabIndex = 0;
             // 
-            // button2
+            // RSABtn
             // 
-            this.button2.BackColor = System.Drawing.Color.Honeydew;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button2.Location = new System.Drawing.Point(87, 391);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(330, 98);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "RSA";
-            this.button2.UseVisualStyleBackColor = false;
+            this.RSABtn.BackColor = System.Drawing.Color.Honeydew;
+            this.RSABtn.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.RSABtn.Location = new System.Drawing.Point(87, 391);
+            this.RSABtn.Name = "RSABtn";
+            this.RSABtn.Size = new System.Drawing.Size(330, 98);
+            this.RSABtn.TabIndex = 4;
+            this.RSABtn.Text = "RSA";
+            this.RSABtn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // PlayfairBtn
             // 
-            this.button1.BackColor = System.Drawing.Color.AliceBlue;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button1.Location = new System.Drawing.Point(87, 283);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(330, 95);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Playfair";
-            this.button1.UseVisualStyleBackColor = false;
+            this.PlayfairBtn.BackColor = System.Drawing.Color.AliceBlue;
+            this.PlayfairBtn.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.PlayfairBtn.Location = new System.Drawing.Point(87, 283);
+            this.PlayfairBtn.Name = "PlayfairBtn";
+            this.PlayfairBtn.Size = new System.Drawing.Size(330, 95);
+            this.PlayfairBtn.TabIndex = 3;
+            this.PlayfairBtn.Text = "Playfair";
+            this.PlayfairBtn.UseVisualStyleBackColor = false;
+            this.PlayfairBtn.Click += new System.EventHandler(this.PlayfairBtn_Click);
             // 
             // label2
             // 
@@ -131,8 +132,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button PlayfairBtn;
+        private System.Windows.Forms.Button RSABtn;
     }
 }
 

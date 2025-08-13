@@ -18,5 +18,12 @@ namespace Playfair_RSA
             InitializeComponent();
         }
 
+        private void PlayfairBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Playfair playfairForm = new Playfair();
+            playfairForm.ShowDialog();
+            this.Show();
+        }
     }
 }
