@@ -62,6 +62,7 @@
             this.RSABtn.TabIndex = 4;
             this.RSABtn.Text = "RSA";
             this.RSABtn.UseVisualStyleBackColor = false;
+            this.RSABtn.Click += new System.EventHandler(this.RSABtn_Click);
             // 
             // PlayfairBtn
             // 

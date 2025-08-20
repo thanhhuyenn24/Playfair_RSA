@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Playfair));
             this.NamePanel = new System.Windows.Forms.Panel();
-            this.BackPic = new System.Windows.Forms.PictureBox();
             this.NameLabel = new System.Windows.Forms.Label();
             this.SwapBtn = new System.Windows.Forms.Button();
             this.ExportBtn = new System.Windows.Forms.Button();
@@ -87,12 +86,13 @@
             this.EnterKeyText = new System.Windows.Forms.Label();
             this.Key = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.BackPic = new System.Windows.Forms.PictureBox();
             this.NamePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.BackPic)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.MatrixPnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BackPic)).BeginInit();
             this.SuspendLayout();
             // 
             // NamePanel
@@ -104,17 +104,6 @@
             this.NamePanel.Name = "NamePanel";
             this.NamePanel.Size = new System.Drawing.Size(911, 87);
             this.NamePanel.TabIndex = 1;
-            // 
-            // BackPic
-            // 
-            this.BackPic.BackgroundImage = global::Playfair_RSA.Properties.Resources.icons8_back_100;
-            this.BackPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BackPic.Location = new System.Drawing.Point(21, 16);
-            this.BackPic.Name = "BackPic";
-            this.BackPic.Size = new System.Drawing.Size(56, 53);
-            this.BackPic.TabIndex = 1;
-            this.BackPic.TabStop = false;
-            this.BackPic.Click += new System.EventHandler(this.BackPic_Click);
             // 
             // NameLabel
             // 
@@ -805,6 +794,17 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Playfair Key";
             // 
+            // BackPic
+            // 
+            this.BackPic.BackgroundImage = global::Playfair_RSA.Properties.Resources.icons8_back_100;
+            this.BackPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackPic.Location = new System.Drawing.Point(21, 16);
+            this.BackPic.Name = "BackPic";
+            this.BackPic.Size = new System.Drawing.Size(56, 53);
+            this.BackPic.TabIndex = 1;
+            this.BackPic.TabStop = false;
+            this.BackPic.Click += new System.EventHandler(this.BackPic_Click);
+            // 
             // Playfair
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -824,13 +824,13 @@
             this.Text = "Playfair";
             this.NamePanel.ResumeLayout(false);
             this.NamePanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.BackPic)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.MatrixPnl.ResumeLayout(false);
             this.MatrixPnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BackPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

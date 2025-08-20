@@ -25,5 +25,13 @@ namespace Playfair_RSA
             playfairForm.ShowDialog();
             this.Show();
         }
+
+        private void RSABtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RSA rsaForm = new RSA();
+            rsaForm.ShowDialog();
+            this.Show();
+        }
     }
 }
