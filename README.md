@@ -4,19 +4,6 @@ This project is a **WinForms C# application** that demonstrates two classic encr
 
 ---
 
-## 📸 Screenshots
-
-### Main Window
-![Main Form](UI/MainForm.png)
-
-### Playfair Window
-![Playfair Form](UI/PlayfairForm.png)
-
-### RSA Window
-![RSA Form](UI/RSAForm.png)
-
----
-
 ## 🧩 Features
 
 ### 🔡 Playfair Cipher
@@ -35,7 +22,20 @@ This project is a **WinForms C# application** that demonstrates two classic encr
 1. Clone or download this repository.  
 2. Open the solution in **Visual Studio**.  
 3. Build and run the project.  
-4. Select either **Playfair** or **RSA** from the main window.  
+4. Select either **Playfair** or **RSA** from the main window.
+
+---
+
+## 📸 Screenshots
+
+### Main Window
+![Main Form](UI/MainForm.png)
+
+### Playfair Window
+![Playfair Form](UI/PlayfairForm.png)
+
+### RSA Window
+![RSA Form](UI/RSAForm.png)
 
 ---
 
