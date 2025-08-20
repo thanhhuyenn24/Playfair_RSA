@@ -8,13 +8,11 @@ This project is a **WinForms C# application** that demonstrates two classic encr
 
 ### 🔡 Playfair Cipher
 - Open an existing file and save the encrypted/decrypted file.  
-- Choose **5x5** or **6x6** matrix for encryption.  
-- Easy-to-use interface for both encryption and decryption.  
+- Choose **5x5** or **6x6** matrix for encryption. 
 
 ### 🔑 RSA Algorithm
 - Open an existing file and save the encrypted/decrypted file.  
-- Supports **Vietnamese text encryption**.  
-- Simple key management for demonstration purposes.  
+- Supports **Vietnamese text encryption**. 
 
 ---
 
